@@ -18,10 +18,10 @@ module single() {
         union() {
             // Main block
             translate([-2.5, 0, 15])
-                cube([5, 62, 50], center = true);
+                cube([5, 55, 50], center = true);
 
             // Connector block
-            translate([-34, -6, 0])
+            translate([-34, -6, 1])
                 cube([34, 12, 8]);
 
             // Front ring (hollow cylinder)
